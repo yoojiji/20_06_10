@@ -3,19 +3,80 @@
 <meta charset="utf-8">
 <head>
 	<style type="text/css">
-		
+
+html{text-align: center; width: 700px; background-color: yellow}
+
+		#a{position: absolute; left: 100px; top: 100px; border-radius: 50%;
+			animation: LR 2s infinite alternate; }
+
+			@keyframes LR{from{left: -400px;}
+			to{left: 300px}}
+
+		#b{position: absolute; left: 100px; top: 400px; border-radius: 50%;
+			animation: LRR 2.3s infinite alternate ;}
+
+			@keyframes LRR{from{left: -500px;}
+			to{left: 1000px}}
+
+		#c{position: absolute; left: 100px; top: 700px; border-radius: 50%;
+			animation: LRRR 2.3s infinite alternate ;}
+
+			@keyframes LRRR{from{left: -500px;}
+			to{left: 100px}}
+
+		#d{position: absolute; left: 100px; top: 1100px; border-radius: 50%;
+			animation: LRRRR 1.8s infinite alternate ;}
+
+			@keyframes LRRRR{from{left: -800px;}
+			to{left: 100px}}
+
+		#e{position: absolute; left: 100px; top: 1600px; border-radius: 50%;
+			animation: LRRRRR 1.8s infinite alternate ;}
+
+			@keyframes LRRRRR{from{top: -800px;}
+			to{bottom: 100px}}
+
+		#f{position: absolute; left: 400px; top: 1600px; border-radius: 50%;
+			animation: LRRRRRR 2s infinite alternate ;}
+
+			@keyframes LRRRRRR{from{top: -800px;}
+			to{bottom: 100px}}
+
+		#g{position: absolute; left: 600px; top: 1600px; border-radius: 50%;
+			animation: LRRRRRR 1.8s infinite alternate ;}
+
+			@keyframes LRRRRRR{from{top: -800px;}
+			to{bottom: 100px}}
+
+		#h{position: absolute; left: 900px; top: 1600px; border-radius: 50%;
+			animation: LRRRRRR 2.2s infinite alternate ;}
+
+			@keyframes LRRRRRR{from{top: -800px;}
+			to{bottom: 80px}}
+
+
+
+	
+
+
 
 	</style>
 
 
-	<title>공사중</title>
+	<title>이번엔 움직인다!</title>
 </head>
 <body>
 
-	<a style="font-size: 3em; text-align: center;">
-아직 제작중인 페이지입니다.<br>참여해주셔서 감사합니다!
-<br><br>(ง˙∇˙)ว
-</a>
+<div id='a'><img src="./img/3.png" style="cursor: pointer"></div>
+<div id='b'><img src="./img/6.png" style="cursor: pointer"></div>
+<div id='c'style="cursor: pointer; button s"  onclick='alert("검증되지 않은 사용자가 제공하는 파일은 안전하지 않을 수 있습니다. 계속하시겠습니까?")' href="https://yoojiji.github.io/20_06_11/."><img src="./img/13.png"></div>
+<div id='d'><img src="./img/14.gif" style="cursor: pointer"></div>
+
+<div id='e'><img src="./img/1.png" style="cursor: pointer"></div>
+<div id='f'><img src="./img/4.png" style="cursor: pointer"></div>
+<div id='g'><img src="./img/5.png"  style="cursor: pointer"></div>
+<div id='h' style="cursor: pointer"  onclick='alert("검증되지 않은 사용자가 제공하는 파일은 안전하지 않을 수 있습니다. 계속하시겠습니까?")' href="https://yoojiji.github.io/20_06_11/."><img src="./img/7.png"></div>
+
  
 </body>
 </html>
